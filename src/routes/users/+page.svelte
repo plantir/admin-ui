@@ -1,8 +1,6 @@
 <script lang="ts">
-    import {table} from './config'
-
+	import { userTable } from '$lib/config';
 </script>
 
-
 Users list
-<pre>{JSON.stringify(table, null, 2)}</pre>
+<pre>{JSON.stringify(userTable, null, 2)}</pre>
